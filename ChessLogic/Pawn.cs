@@ -1,5 +1,8 @@
 ﻿namespace ChessLogic
 {
+    /// <summary>
+    /// Пешка
+    /// </summary>
     public class Pawn : IChessFigure {
         public bool IsCorrectStep(Vector vector)
         {

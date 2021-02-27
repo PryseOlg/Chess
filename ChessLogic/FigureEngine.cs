@@ -12,7 +12,11 @@ namespace ChessLogic
        /// </summary>
         private static Dictionary<string, IChessFigure> _figures = new Dictionary<string, IChessFigure>() {
             {"Knight", new Knight()},
-            {"Pawn", new Pawn()}
+            {"Pawn", new Pawn()},
+            {"Rook", new Rook()},
+            {"Bishop", new Bishop()},
+            {"King", new King()},
+            {"Queen", new Queen()}
         };
 
         /// <summary>

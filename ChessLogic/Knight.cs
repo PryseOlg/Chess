@@ -2,6 +2,9 @@
 
 namespace ChessLogic
 {
+    /// <summary>
+    /// Конь
+    /// </summary>
     public class Knight : IChessFigure {
         public bool IsCorrectStep(Vector vector)
         {
